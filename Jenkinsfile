@@ -22,7 +22,7 @@ pipeline {
             steps {
                 script {
                     // Let's clone the source
-                    git '';
+                    git 'https://github.com/Farsaan-tech/simplecutomerapp.git';
                 }
             }
         }
